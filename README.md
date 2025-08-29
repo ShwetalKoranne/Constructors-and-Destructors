@@ -1,6 +1,5 @@
 # Constructors-and-Destructors
 
-# CONSTRUCTORS & DESTRUCTORS IN CPP
 
 Aim: To study and implement Constructors and Destructors.
 
