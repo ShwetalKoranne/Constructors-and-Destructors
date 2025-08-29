@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+class Num{
+    public:
+
+    int num1, num2;
+
+    Num(int a, int b){
+        num1=a;
+        num2=b;
+    }
+
+    void display(){
+        cout<<"Sum: "<<num1+num2<<endl;
+        cout<<"Difference: "<<num1-num2<<endl;
+        cout<<"Multiplication: "<<num1*num2<<endl;
+    }
+};
+
+int main(){
+
+    Num n1(23,78);
+    n1.display();
+
+    return 0;
+}
+
+
+/*    OUTPUT
+Sum: 101
+Difference: -55
+Multiplication: 1794
+*/
