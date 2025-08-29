@@ -1,0 +1,59 @@
+#include<iostream>
+using namespace std;
+
+class Marks{
+    public:
+
+    int MTT;
+    int DCLD;
+    int EDC;
+    int NT;
+    int SS;
+
+    Marks();
+    void display();
+};
+
+Marks::Marks(){
+     cout<<"Enter MTT marks:";
+        cin>>MTT;
+
+        cout<<"Enter DCLD marks:";
+        cin>>DCLD;
+
+        cout<<"Enter EDC marks:";
+        cin>>EDC;
+
+        cout<<"Enter NT marks:";
+        cin>>NT;
+
+        cout<<"Enter SS marks:";
+        cin>>SS;
+}
+
+void Marks::display(){
+    cout<<endl<<"MTT: "<<MTT<<"\n"<<"DCLD: "<<DCLD<<"\n"<<"EDC: "<<EDC<<"\n"<<"NT: "<<NT<<"\n"<<"SS: "<<SS;
+}
+
+int main(){
+
+    Marks m1;
+    m1.display();
+
+    return 0;
+}
+
+
+/*      OUTPUT
+Enter MTT marks:91
+Enter DCLD marks:92
+Enter EDC marks:93
+Enter NT marks:94
+Enter SS marks:95
+
+MTT: 91
+DCLD: 92
+EDC: 93
+NT: 94
+SS: 95
+*/
